@@ -26,33 +26,21 @@
     <h1 class="header">The Five Elements</h1>
 
     <main>
-        <gameBoard>
-            <choicesContainer>
-                <button></button>
-                <button></button>
-                <button></button>
-                <button></button>
-                <button></button>
-            </choicesContainer>
+        <section id="gameBoard">
+            <section id="choicesContainer">
+                <button onclick="playGame('rock')" title="Rock crushes Lizard and Scissors"><i
+                        class="fas fa-gem"></i><br></button>
+                <button onclick="playGame('paper')" title="Paper disproves Spock and covers Rock"><i
+                        class="fas fa-gem"></i><br></button>
+                <button onclick="playGame('scissors')" title="Scissors decapitates Lizard and cuts Paper"><i
+                        class="fas fa-gem"></i><br></button>
+                <button onclick="playGame('lizard')" title="Lizard eats Paper and poisons Spock"><i
+                        class="fas fa-gem"></i><br></button>
+                <button onclick="playGame('spock')" title="Spock vaporizes Rock and smashes Scissors"><i
+                        class="fas fa-gem"></i><br></button>
+            </section>
 
-            <displayContainer>
-                <playerDisplay></playerDisplay>
-                <computerDisplay></computerDisplay>
-            </displaycontainer>
-
-            <resultContainer>
-                <playerResult></playerResult>
-                <computerResult></computerResult>
-            </resultContainer>
-
-            <scoreContainer>
-                <playerscoredisplay></playerScoredisplay>
-                <computerScoreDisplay></computerScoreDisplay>
-            </scoreContainer>
-
-            <Reset>Play again</Reset>
-
-            </game-board>
+        </section>
 
     </main>
 
