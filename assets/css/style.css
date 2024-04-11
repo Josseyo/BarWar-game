@@ -4,3 +4,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*General style*/
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: yellow;
+    background: rgb(9, 4, 50);
+}
+
+/*Header*/
+header {}
+
+/*Main content - Game board*/
+main {
+    /*make main content take up any surplus space to push footer down*/
+    flex: 1 0 auto;
+
+}
+
+footer {
+    color: rgb(9, 4, 50);
+    background: yellow;
+}
