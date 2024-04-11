@@ -24,8 +24,23 @@ body {
 main {
     /*make main content take up any surplus space to push footer down*/
     flex: 1 0 auto;
-
 }
+
+h1 {
+    font-size: 5rem;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    letter-spacing: 10px;
+}
+
+#gameboard {
+    box-sizing: border-box;
+    width: 85%;
+    max-width: 830px;
+    margin: auto;
+    padding: 1%;
+}
+
 
 footer {
     color: rgb(9, 4, 50);
