@@ -41,6 +41,28 @@ h1 {
     padding: 1%;
 }
 
+#buttonsDisplay button {
+    font-size: 3.2rem;
+    width: 110px;
+    height: 110px;
+    margin: auto;
+
+    border-radius: 50%;
+    background-color: yellow;
+    border: 0.10em solid rgb(9, 4, 50);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+
+}
+
+#buttonsDisplay button:hover {
+
+    background: magenta;
+    border: solid yellow 0.2em;
+
+
+}
+
 
 footer {
     color: rgb(9, 4, 50);
