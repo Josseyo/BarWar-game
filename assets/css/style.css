@@ -79,6 +79,29 @@ h1 {
     background-color: yellow;
 }
 
+#resultDisplay {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    background-color: blue;
+}
+
+#playerDisplay {
+    font-size: 2.5em;
+    margin: auto;
+    padding: 1rem;
+    background-color: azure;
+}
+
+#computerDisplay {
+    font-size: 2.5em;
+    color: yellow;
+    margin: auto;
+    padding: 1rem;
+}
+
+
 footer {
     color: rgb(9, 4, 50);
     background: yellow;
