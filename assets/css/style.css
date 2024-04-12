@@ -101,6 +101,13 @@ h1 {
     padding: 1rem;
 }
 
+#resultContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
 
 footer {
     color: rgb(9, 4, 50);
