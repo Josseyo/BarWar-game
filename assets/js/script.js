@@ -1,6 +1,9 @@
 const holder = ["rock", "paper", "scissors", "lizard", "spock"];
 const playerDisplay = document.getElementById("playerDisplay");
 const computerDisplay = document.getElementById("computerDisplay");
+const resultDisplay = document.getElementById("resultDisplay");
+let playerScore = 0;
+let computerScore = 0;
 
 
 //Add event listener for button-clicks
@@ -46,7 +49,27 @@ function determineWinner(playerChoice, computerChoice) {
                 result = "Invalid choice!";
         }
     }
+    return result;
+}
+//Function display result and update scores
+function display(player, computer, decision) {
+    playerDisplay.textContent = player;
+    computerDisplay.textContent = computer;
+    resultDisplay.textContent = decision;
+    resultDisplay.classList.remove("magentaText", "aquaText");
 
-    //Function display result and update scores
-    function display() {}
+    switch (decision) {
+        case "You win!":
+            resultDisplay.classList.add("magentaText");
+            playerScore++;
+            playerScoreDisplay.textContent = playerScore;
+            playerScoreDisplay.classList.add("magentaText");
+            break;
+        case "You lose:(":
+            resultDisplay.classList.add("aquaText");
+            computerScore++;
+            computerScoreDisplay.textContent = computerScore;
+            computerScoreDisplay.classList.add("aquaText");
+            break;
+    }
 }
