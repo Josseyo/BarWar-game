@@ -118,34 +118,14 @@ h2 {
     padding: 1rem;
 }
 
-#resultDisplay {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: auto;
-    background-color: blue;
-}
-
-#playerDisplay {
-    font-size: 2.5em;
-    margin: auto;
-    padding: 1rem;
-    background-color: azure;
-}
-
-#computerDisplay {
-    font-size: 2.5em;
-    color: yellow;
-    margin: auto;
-    padding: 1rem;
-}
-
 #resultContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
+
 }
+
 
 
 footer {
