@@ -106,9 +106,9 @@ h2 {
 
 #playerDisplay {
     font-size: 2.5rem;
+    color: magenta;
     margin: auto;
     padding: 1rem;
-    background-color: magenta;
 }
 
 #computerDisplay {
