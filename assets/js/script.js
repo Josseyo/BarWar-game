@@ -1,6 +1,9 @@
 const holder = ["rock", "paper", "scissors", "lizard", "spock"];
-//Add event listener for button-clicks
+const playerDisplay = document.getElementById("playerDisplay");
+const computerDisplay = document.getElementById("computerDisplay");
 
+
+//Add event listener for button-clicks
 const options = document.querySelectorAll(".button");
 
 options.forEach((option) => {
@@ -16,16 +19,15 @@ options.forEach((option) => {
 });
 
 //Function play game
-function playGame() {
-
+function playGame(playerChoice) {
+    const computerChoice = holder[Math.floor(Math.random() * 5)];
+    let result = determineWinner(playerChoice, computerChoice);
+    display(playerChoice, computerChoice, result);
 }
 
 //Function determine the winner
-function determinewinner() {
+function determineWinner() {
 
 }
-
 //Function display result and update scores
-function display() {
-
-}
+function display() {}
