@@ -28,16 +28,16 @@
         <section id="gameBoard">
             <!--button/variable/choices area -->
             <div id="holder">
-                <button onclick="playGame('rock')" title="Rock crushes Lizard and Scissors"><i
+                <button onclick="playGame('rock')" title="Rock crushes Lizard and Scissors" aria-label="rock"><i
                         class="fas fa-gem"></i><br></button>
-                <button onclick="playGame('paper')" title="Paper disproves Spock and covers Rock"><i
+                <button onclick="playGame('paper')" title="Paper disproves Spock and covers Rock" aria-label="paper"><i
                         class="fas fa-solid fa-toilet-paper"></i><br></button>
-                <button onclick="playGame('scissors')" title="Scissors decapitates Lizard and cuts Paper"><i
-                        class="fas fa-hand-scissors"></i><br></button>
-                <button onclick="playGame('lizard')" title="Lizard eats Paper and poisons Spock"><i
+                <button onclick="playGame('scissors')" title="Scissors decapitates Lizard and cuts Paper"
+                    aria-label="scissors"><i class="fas fa-hand-scissors"></i><br></button>
+                <button onclick="playGame('lizard')" title="Lizard eats Paper and poisons Spock" aria-label="lizard"><i
                         class="fas fa-hand-lizard"></i><br></button>
-                <button onclick="playGame('spock')" title="Spock vaporizes Rock and smashes Scissors"><i
-                        class="fas fa-hand-spock fa-beat"></i><br></button>
+                <button onclick="playGame('spock')" title="Spock vaporizes Rock and smashes Scissors"
+                    aria-label="spock"><i class="fas fa-hand-spock fa-beat"></i><br></button>
             </div>
             <!--your's and computer's choice -->
             <section id="displayContainer">
@@ -45,11 +45,11 @@
                 <div id="computerDisplay"></div>
             </section>
             <!--Who won/lost -->
-            <section id="resultContainer">
+            <div id="resultContainer">
                 <div id="resultDisplay">Result:</div>
-            </section>
+            </div>
             <!--Total wins and losses -->
-            <div id="scoreContainer">
+            <div section="scoreContainer">
                 <div class="scoreDisplay">
                     <span id="playerScoreDisplay">0</span>
                 </div>
