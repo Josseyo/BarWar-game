@@ -152,8 +152,22 @@ h2 {
     color: aqua;
 }
 
+#rules {
+    width: 85%;
+    max-width: 830px;
+    font-size: 1.6rem;
+    color: rgb(9, 4, 50);
+    margin: auto;
+    margin-top: 30px;
+    padding: 1em;
+    background-color: yellow;
+    text-align: left;
+    letter-spacing: 0.1em;
+}
 
 footer {
     color: rgb(9, 4, 50);
     background: yellow;
+    text-align: left;
+    padding: 1rem;
 }
