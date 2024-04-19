@@ -131,6 +131,27 @@ h2 {
     padding: 1rem;
 }
 
+#scoreContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.scoreDisplay {
+    font-size: 3.5em;
+    margin: auto;
+    padding: 1rem;
+}
+
+
+.magentaText {
+    color: magenta;
+}
+
+.aquaText {
+    color: aqua;
+}
+
 
 footer {
     color: rgb(9, 4, 50);
