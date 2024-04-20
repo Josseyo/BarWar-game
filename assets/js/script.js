@@ -27,23 +27,23 @@ function playGame(playerChoice) {
 // Function determine the winner
 function determineWinner(playerChoice, computerChoice) {
     if (playerChoice === computerChoice) {
-        return "It's a tie...";
+        return "It's a tie";
     } else {
         switch (playerChoice) {
             case "rock":
-                result = (computerChoice === "scissors" || computerChoice === "lizard") ? "You win!" : "You lose:(";
+                result = (computerChoice === "scissors" || computerChoice === "lizard") ? "You win!" : "You lose...";
                 break;
             case "paper":
-                result = (computerChoice === "rock" || computerChoice === "spock") ? "You win!" : "You lose:(";
+                result = (computerChoice === "rock" || computerChoice === "spock") ? "You win!" : "You lose...";
                 break;
             case "scissors":
-                result = (computerChoice === "paper" || computerChoice === "lizard") ? "You win!" : "You lose:(";
+                result = (computerChoice === "paper" || computerChoice === "lizard") ? "You win!" : "You lose...";
                 break;
             case "lizard":
-                result = (computerChoice === "spock" || computerChoice === "paper") ? "You win!" : "You lose:(";
+                result = (computerChoice === "spock" || computerChoice === "paper") ? "You win!" : "You lose...";
                 break;
             case "spock":
-                result = (computerChoice === "rock" || computerChoice === "scissors") ? "You win!" : "You lose:(";
+                result = (computerChoice === "rock" || computerChoice === "scissors") ? "You win!" : "You lose...";
                 break;
             default:
                 result = "Invalid choice!";
@@ -56,17 +56,17 @@ function display(player, computer, decision) {
     playerDisplay.textContent = player;
     computerDisplay.textContent = computer;
     resultDisplay.textContent = decision;
-    resultDisplay.classList.remove("magentaText", "aquaText");
+    resultDisplay.classList.remove("magentaText", "aquaText", "magentawinText", "aqualoseText");
 
     switch (decision) {
         case "You win!":
-            resultDisplay.classList.add("magentaText");
+            resultDisplay.classList.add("magentawinText");
             playerScore++;
             playerScoreDisplay.textContent = playerScore;
             playerScoreDisplay.classList.add("magentaText");
             break;
-        case "You lose:(":
-            resultDisplay.classList.add("aquaText");
+        case "You lose...":
+            resultDisplay.classList.add("aqualoseText");
             computerScore++;
             computerScoreDisplay.textContent = computerScore;
             computerScoreDisplay.classList.add("aquaText");

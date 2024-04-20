@@ -26,7 +26,7 @@
 
     <main>
         <section id="gameBoard">
-            <!--button/variable/choices area -->
+            <!--button/variable/choices area-->
             <div id="holder">
                 <button onclick="playGame('rock')" title="Rock crushes Lizard and Scissors" aria-label="rock"><i
                         class="fas fa-gem"></i><br></button>
@@ -40,10 +40,11 @@
                     aria-label="spock"><i class="fas fa-hand-spock fa-beat"></i><br></button>
             </div>
             <!--your's and computer's choice -->
-            <section id="displayContainer">
-                <div id="playerDisplay"></div>
-                <div id="computerDisplay"></div>
-            </section>
+            <div id="displayContainer">
+                <br>
+                <div id="playerDisplay">You:</div>
+                <div id="computerDisplay">House:</div>
+            </div>
             <!--Who won/lost -->
             <div id="resultContainer">
                 <div id="resultDisplay">Result:</div>
@@ -52,6 +53,7 @@
             <div id="scoreContainer">
                 <div class="scoreDisplay">
                     <span id="playerScoreDisplay">0</span>
+                    <span id="divider">-</span>
                     <span id="computerScoreDisplay">0</span>
                 </div>
             </div>
