@@ -54,9 +54,9 @@ main {
 
 
 h1 {
-    font-size: 5rem;
-    margin-top: 60px;
-    margin-bottom: 30px;
+    font-size: 5em;
+    margin-top: 1em;
+    margin-bottom: 0.3em;
     letter-spacing: 10px;
 }
 
@@ -201,9 +201,78 @@ footer {
 /* Media queries */
 
 @media (max-width: 414px) {
-    .controls-area {
-        width: 100%;
+
+    body {
+        margin: 2em 0.5em 0.5em 0.5em;
     }
+
+    a {
+        margin: auto;
+    }
+
+    a:hover {
+        color: yellow;
+        background: magenta;
+        border: solid yellow 0.3em;
+        font-size: 1.1rem;
+        margin: auto;
+        padding: 0.5em;
+    }
+
+    #holder {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 1em;
+    }
+
+    #holder button {
+        font-size: 3em;
+        min-width: fit-content;
+        min-height: 100%;
+        margin: auto;
+        padding: 0.5em;
+        border-radius: 50%;
+        background-color: yellow;
+        border: 0.2em solid rgb(9, 4, 50);
+        cursor: pointer;
+        transition: background-color 0.5s ease;
+    }
+
+    #holder button:hover {
+        background: magenta;
+        border: solid yellow 0.2em;
+        font-size: 3.1;
+    }
+
+    #displayContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 2em 0em 1em 0em;
+    }
+}
+
+#resultDisplay {
+    margin-bottom: 0.5em;
+
+}
+
+h2 {
+    font-size: 1.6em;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 10px;
+}
+
+#rules {
+    font-size: 1.2em;
+    color: rgb(9, 4, 50);
+    margin: 0.1em 0.3em 0.1em 1.5em;
+    background-color: yellow;
+    text-align: left;
+    letter-spacing: 0.1em;
 }
 
 @media (max-width: 320px) {
@@ -251,7 +320,6 @@ footer {
         font-size: 3.1;
     }
 
-
     #displayContainer {
         display: flex;
         flex-wrap: wrap;
@@ -266,18 +334,15 @@ footer {
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 1.6em;
     margin-top: 30px;
     margin-bottom: 20px;
     letter-spacing: 10px;
 }
 
-
 #rules {
-
-    font-size: 1em;
+    font-size: 1.2em;
     color: rgb(9, 4, 50);
-
     margin: 0.1em 0.3em 0.1em 1.5em;
     background-color: yellow;
     text-align: left;
