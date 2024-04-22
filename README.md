@@ -41,6 +41,15 @@ New visitors quickly recognize the traditional game of Paper, Rock and Scissors
 -The rules of the game and logic between the five elements/variables should be easy to reach
 -The user/player shall have a clear overview and understanding of each button/choice/variable to be able to make an active choice rather than a random pick.  
 (Enhance the gameplay experience with additional features like score tracking and round management to create a structured and competitive game session)
+## Design
+
+### Colors
+The colors are inspired from Starwars and lasers. Dark blue background with text and elements in yellow, pink and aqua  makes a good contrast. Red and green are used as signal colors for win and lose.
+Typography
+The courier font is inspired from typewriter and text code to match the beginning of digital age era
+
+### Icons
+	The icons of common illustrations by Font awesome are used for the variable buttons
 
 
 ## Wireframes and features
