@@ -59,3 +59,30 @@ The courier font is inspired from typewriter and text code to match the beginnin
 
 
 ------
+### Accessibility
+Structure of semantic html
+Meta tags and description
+The icons have aria labels
+Buttons with titles
+Responsive design
+Colors with good contrast
+
+### Features
+Title
+Heading
+Score board
+Buttons with variable choices
+The buttons for the choices are big enough to make them easy to click.     
+The colors have a good contrast between background and icon.
+An explanatory (title) text of the choice/button help the player make a conscious choice, without cluttering the game board with visible help texts
+The players choice 
+When the player  hovers the mouse over the buttons with choices to play,  the button shifts color from yellow to aqua to and make it clear which button you are about to click to  avoid mistakes
+
+The computers choice
+The Result
+The rules 
+
+### Future Features
+Save high score list
+
+
