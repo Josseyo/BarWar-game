@@ -184,7 +184,7 @@ h2 {
 
     font-size: 1.6rem;
     color: rgb(9, 4, 50);
-
+    max-width: 85%;
     margin: 0.1em 0.3em 0.1em 1.5em;
     background-color: yellow;
     text-align: left;
