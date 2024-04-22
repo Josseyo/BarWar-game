@@ -17,6 +17,31 @@ The Bar Wars game can be used for planning and making decisions for the event. W
 
 It can also be used as paus entertainment. Play by yourself or challenge a friend, who is the best out of five?
 
+## Goal
+
+### Project goal
+(Credit https://hackr.io/blog/how-to-build-rock-paper-scissors-in-javascript)
+
+Design a stylish and engaging user interface for a rock-paper-scissors game. 
+
+Using JavaScript to implement functions such as:
+
+-Managing player choices
+-Generating computer selections
+-Determining round winners
+-Update the game interface dynamically based on player interactions to display
+-Selections
+-Round result
+-Total scores
+
+### User goal
+New visitors quickly recognize the traditional game of Paper, Rock and Scissors
+
+-The extra variables creates curiosity and willingness to try it out  
+-The rules of the game and logic between the five elements/variables should be easy to reach
+-The user/player shall have a clear overview and understanding of each button/choice/variable to be able to make an active choice rather than a random pick.  
+(Enhance the gameplay experience with additional features like score tracking and round management to create a structured and competitive game session)
+
 
 ## Wireframes and features
 
