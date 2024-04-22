@@ -6,17 +6,6 @@ let playerScore = 0;
 let computerScore = 0;
 
 
-//Add event listener for button-clicks
-const options = document.querySelectorAll(".button");
-options.forEach((option) => {
-    option.addEventListener("click", function () {
-        const playerChoice = option.getAttribute("aria-label");
-        playGame(playerChoice);
-
-    });
-
-});
-
 //Function play game
 function playGame(playerChoice) {
     const computerChoice = holder[Math.floor(Math.random() * 5)];
@@ -72,4 +61,16 @@ function display(player, computer, decision) {
             computerScoreDisplay.classList.add("aquaText");
             break;
     }
+}
+
+//Function click button 
+function clickButton() {
+    const options = document.querySelectorAll(".button");
+    options.forEach((option) => {
+        option.addEventListener("click", function () {
+            const playerChoice = option.getAttribute("aria-label");
+            playGame(playerChoice);
+
+        });
+    });
 }
