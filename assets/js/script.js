@@ -1,3 +1,5 @@
+/*eslint-env es6*/
+
 const holder = ["rock", "paper", "scissors", "lizard", "spock"];
 const playerDisplay = document.getElementById("playerDisplay");
 const computerDisplay = document.getElementById("computerDisplay");
