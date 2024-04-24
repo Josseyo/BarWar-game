@@ -62,7 +62,7 @@ function determineWinner(playerChoice, computerChoice) {
         }
         return result;
     } catch (err) {
-        console.log(err.message)
+        console.log(err.message);
     }
 }
 
@@ -89,8 +89,8 @@ function display(player, computer, decision) {
                 break;
         }
     } catch (err) {
-        console.log(err.message)
+        console.log(err.message);
     }
 }
 
-clickButtons()
+clickButtons();

@@ -207,9 +207,12 @@ Add aria https://youtu.be/P_H4_miTKsI?si=FqNEw6qp7DAeGpIN
 
 Add Try/Catch 
 
-Inspiration for readme  https://hackr.io/blog/how-to-build-rock-paper-scissors-in-javascript)
+Inspiration for readme https://hackr.io/blog/how-to-build-rock-paper-scissors-in-javascript)
 
-Include loop and eventlistner, https://sebhastian.com/rock-paper-scissors-javascript/
+Buttons using an event listener https://sebhastian.com/rock-paper-scissors-javascript/ 
+https://fjolt.com/articlejavascript-multiple-elements-addeventlistener
+
+Bro Code, javascript full cours for free (2024) https://youtu.be/lfmg-EJ8gm4?si=8UWH-9nR20S0VXzS
 
 
 
