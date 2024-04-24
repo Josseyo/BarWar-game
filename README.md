@@ -14,7 +14,8 @@ In case of any clash of opinions the situation will quickly be solved with this 
 Make it easy and let the game decide!
 
 The game is based on the five elements theory and the episode of the comedy series “The big bang theory” in which Sheldon expands the ”Rock-paper-scissors"game to include “lizard” and “Spock” to increase the randomness of the outcome.
-https://www.youtube.com/watch?v=iSHPVCBsnLw&t=0s
+
+<a href="https://www.youtube.com/watch?v=iSHPVCBsnLw"><img src="https://img.youtube.com/vi/iSHPVCBsnLw/0.jpg" width="300"></a>
 
 
 ## Goal
@@ -22,14 +23,14 @@ https://www.youtube.com/watch?v=iSHPVCBsnLw&t=0s
 ### Project goal
 
 
-* Design  a stylish and engaging user interface for a rock-paper-scissors game 
-* Using JavaScript to implement functions  such as:
+* Design a clean retro-stylish and engaging user interface for a rock-paper-scissors game 
+* Using JavaScript to implement functions such as:
+
 	* Managing player choices
 	* Generating computer selections
-	* Determining round winners
-* Update the game interface dynamically based on player interactions to display
-	* Selections
-	* Round result
+	* Determining round winner
+	* Update the game interface dynamically based on player interactions clicking any of the various buttons
+	* Display result
 	* Total scores
 
 ### User goal
@@ -53,7 +54,8 @@ The colors are inspired from Starwars and lasers. Dark blue background with text
 * Green #00a429ff
 * Red #ff000cff
 
-![colors](assets/documentation/image-3.png)
+
+<img src="assets/documentation/image-3.png" width="500px" height="400">
 ------
 
 ### Typography
