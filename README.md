@@ -174,9 +174,17 @@ Dynamically update HTML content with JavaScript to display current selections, r
 React to user click by adding event listeners for the rock, paper, and scissors buttons.
 
 ## Testing
-* W3C Validator
-* HTML W3C Validator
-* CSS W3C Validator
+
+* HTML W3 Validator	✅
+* CSS W3C Validator	✅
+* Try/catch			✅
+* jshint			
+
+## Fixes 
+
+* Include a loop Buttons using an event listener
+* Break things down into two function
+* Style edted for better user experience 
 
 ## Tools
 FontAwesome, https://fontawesome.com/
@@ -201,7 +209,7 @@ Add Try/Catch
 
 Inspiration for readme  https://hackr.io/blog/how-to-build-rock-paper-scissors-in-javascript)
 
-
+Include loop and eventlistner, https://sebhastian.com/rock-paper-scissors-javascript/
 
 
 
