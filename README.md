@@ -5,17 +5,13 @@
 
 Through global symbols and colors for pass and failure, this game can be used by anyone who is curious to play - or need to make a quick decision.
 
-This project is developed as a gift for the Bar Wars community. A group of people who get together for drinks and to watch Star Wars movies. This is a yearly tradition and takes place the night before Christmas eve.
-
 The Bar Wars game can be used for planning and decision making. What movies will you watch? Who will get the next round?  
 
 In case of any clash of opinions the situation will quickly be solved with this game. 
 
 Make it easy and let the game decide!
 
-The game is based on the five elements theory and the episode of the comedy series “The big bang theory” in which Sheldon expands the ”Rock-paper-scissors"game to include “lizard” and “Spock” to increase the randomness of the outcome.
-
-<a href="https://www.youtube.com/watch?v=iSHPVCBsnLw"><img src="https://img.youtube.com/vi/iSHPVCBsnLw/0.jpg" width="300"></a>
+This project is developed as a gift for the Bar Wars community. A group of people who get together to watch Star Wars movies the night before Christmas eve as a yearly tradition.
 
 
 ## Goal
@@ -209,20 +205,24 @@ Link to the first repository https://github.com/Josseyo/PP2.git
 
  
 ## Tools
-FontAwesome, https://fontawesome.com/
-
-Am I responsive?, https://ui.dev/amiresponsive
-
-Grammarly, https://app.grammarly.com/
-
+Gitpod
+Github
+Google
+Am I responsive? https://ui.dev/amiresponsive
+Grammarly https://app.grammarly.com/
 Speed test, https://pagespeed.web.dev/
 Javascript test, https://jshint.com/
+Html validator, https://validator.w3.org
+CSS validator, https://jigsaw.w3.org/css-validator
 
-https://validator.w3.org
-https://jigsaw.w3.org/css-validator
+## Resources
+FontAwesome, https://fontawesome.com/
+Google fonts
 
 
-## Tutorials & credits
+## Tutorials & Inspirations
+Credits to all the content providers for all the inspirations and learnings from following sources
+
 Build Rock-paper-scissors basic structure https://youtu.be/ec8vSKJuZTk?si=0kYT0P_LqSiH0Yy9
 https://hackr.io/blog/how-to-build-rock-paper-scissors-in-javascript
 
@@ -242,4 +242,8 @@ https://fjolt.com/articlejavascript-multiple-elements-addeventlistener
 Bro Code, javascript full cours for free (2024) https://youtu.be/lfmg-EJ8gm4?si=8UWH-9nR20S0VXzS
 
 Add Try/Catch https://www.w3schools.com/jsref/jsref_try_catch.asp
+
+The game is based on the five elements theory and the episode of the comedy series “The big bang theory” in which Sheldon expands the ”Rock-paper-scissors"game to include “lizard” and “Spock” to increase the randomness of the outcome.
+
+<a href="https://www.youtube.com/watch?v=iSHPVCBsnLw"><img src="https://img.youtube.com/vi/iSHPVCBsnLw/0.jpg" width="300"></a>
 
