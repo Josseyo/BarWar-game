@@ -39,6 +39,7 @@ function playGame(playerChoice) {
 
 // Function determine the winner
 function determineWinner(playerChoice, computerChoice) {
+    let result;
 
     try {
         if (playerChoice === computerChoice) {
