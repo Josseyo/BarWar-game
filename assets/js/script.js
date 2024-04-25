@@ -8,7 +8,7 @@ let playerScore = 0;
 let computerScore = 0;
 const playerScoreDisplay = document.getElementById("playerScoreDisplay");
 const computerScoreDisplay = document.getElementById("computerScoreDisplay");
-
+let roundsPlayed = 0;
 
 //Function click button 
 function clickButtons() {
@@ -25,13 +25,17 @@ function clickButtons() {
     }
 }
 
-
 //Function play game
 function playGame(playerChoice) {
     try {
-        const computerChoice = holder[Math.floor(Math.random() * 5)];
-        let result = determineWinner(playerChoice, computerChoice);
-        display(playerChoice, computerChoice, result);
+        if (roundsPlayed < 5) {
+            const computerChoice = holder[Math.floor(Math.random() * 5)];
+            let result = determineWinner(playerChoice, computerChoice);
+            display(playerChoice, computerChoice, result);
+            roundsPlayed++;
+        } else {
+            overallWinner();
+        }
     } catch (err) {
         console.log(err.message);
     }
@@ -40,7 +44,6 @@ function playGame(playerChoice) {
 // Function determine the winner
 function determineWinner(playerChoice, computerChoice) {
     let result;
-
     try {
         if (playerChoice === computerChoice) {
             return "It's a tie";
@@ -97,5 +100,21 @@ function display(player, computer, decision) {
         console.log(err.message);
     }
 }
+//The Bar Winner-Best out of five rounds
+
+function overallWinner() {
+    try {
+        if (playerScore > computerScore) {
+            console.log("You win the game!");
+        } else if (playerScore < computerScore) {
+            console.log("House wins the game!");
+        } else {
+            console.log("It's a tie!");
+        }
+    } catch (err) {
+        console.log(err.message);
+    }
+}
+
 
 clickButtons();
