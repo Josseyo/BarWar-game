@@ -1,11 +1,15 @@
 ## The Bar Wars game 
-– Rock, paper, scissors, lizard, Spock
+Rock – Paper – Scissors – Lizard – Spock
 
 ![Overview of the game on different screen sizes](assets/documentation/image-1.png)
 
-Through global symbols and colors for pass and failure, this game can be used by anyone who is curious to play - or need to make a quick decision.
+The Bar Wars game is based on the classic game of Rock, paper and scissors with an addition of Lizard and Spock.
 
-The Bar Wars game can be used for planning and decision making. What movies will you watch? Who will get the next round?  
+The game can be used for paus entartainment or for planning and decision making.
+
+Through global symbols and colors for pass and failure, this game can be used by anyone who has time to play - or need to make quick and fair decisions.
+
+What movies will you watch? Who will get the next round?  
 
 In case of any clash of opinions the situation will quickly be solved with this game. 
 
@@ -17,7 +21,6 @@ This project is developed as a gift for the Bar Wars community. A group of peopl
 ## Goal
 
 ### Project goal
-
 
 * Design a clean retro-stylish and engaging user interface for a rock-paper-scissors game 
 * Using JavaScript to implement functions such as:

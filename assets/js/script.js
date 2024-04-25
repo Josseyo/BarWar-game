@@ -33,7 +33,7 @@ function playGame(playerChoice) {
         let result = determineWinner(playerChoice, computerChoice);
         display(playerChoice, computerChoice, result);
     } catch (err) {
-        console.log(err.message)
+        console.log(err.message);
     }
 }
 
