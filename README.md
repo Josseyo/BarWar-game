@@ -55,7 +55,7 @@ The colors are inspired from Starwars and lasers. Dark blue background with text
 * Red #ff000cff
 
 
-<img src="assets/documentation/image-3.png" width="500px" height="400">
+<img src="assets/documentation/image-3.png" width="600px" height="400">
 ------
 
 ### Typography
@@ -91,32 +91,38 @@ First in place is a link to the instructions of the game to make it easy and qui
 ------
 
 ### Heading
-The title of the game refers to the name of a community called The Bar wars. 
+* The name of the game refers to a community tradition called The Bar wars. 
 
-The title is yellow with font in uppercase. Colors are inspired by stars and lasers.
-
+* The heading is yellow with font in uppercase. Colors are inspired by stars,space and lasers. The darkblue background creates a clear contrast
+to the heading
 ![heading](assets/documentation/image-5.png)
 ------
 
 ### Buttons with variable choices
-The variable choices in black shown as icons in round yellow buttons placed on a dark blue background.
+* The variable choices in black shown as icons in round yellow buttons placed on a dark blue background.
 
-The color combination makes a clear contrast and makes it comfortable to play even in places with little light and on small screen sizes. 
+* The color combination makes a clear contrast and makes it comfortable to play even in places with little light and on small screen sizes. 
 
-Responsive design makes buttons’ size and position easy to reach with one hand on mobile phones.
+* Responsive design makes buttons’ size and position easy to reach with one hand on mobile phones.
 
 ![buttons](assets/documentation/image-6.png)
 ------
 
 ### Mouse hovers 
 
-When the player hovers over the buttons to make their selection, the background color shifts to magenta and  a text is visible to remind the player of the button’s strengths and weaknesses, before they make their final decision. This makes it clear for the user which answer they are about to click to avoid mistakes of clicking the wrong answer.
+When the player hovers over the buttons to make their selection;
+* Background color shifts to magenta
+* Explanatory text is visible to remind the player of the button’s strengths and weaknesses. 
+
+This makes it clear for the user which answer they are about to click 
+to avoid mistakes of clicking the wrong answer.
 
 ![buttonhover](assets/documentation/image-7.png)
 ------
 
 ### The selections
-Player’s (You) selection is displayed in magenta (pink) and the computer's (House) selection is displayed in aqua blue. 
+* Player’s (You) selection is displayed in magenta (pink)
+* Computer's (House) selection is displayed in aqua blue
 
 The different colors make a clear distinction between the player’s and computer’s bet.
 
@@ -134,9 +140,9 @@ As a player I don’t have to read to know the outcome; it's very clear just by 
 ![result](assets/documentation/image-9.png)
 ------
 ### Score display
-The score display has a yellow border. 
+* The score display has a yellow border. 
 
-The score of the player is displayed in pink and computers score in aqua blue 
+* The score of the player is displayed in pink and computers score in aqua blue 
 
 This clearly separates  which score belongs to who.
 
@@ -149,8 +155,10 @@ The instructions on how to play are placed at the bottom of the page.
 
 At the end of the text there is a button with a link to take the player to the section with the variable choices to start the game.  
 
-The link's background shifts to magenta/pink when hovering the mouse over.
 ![linkgame](assets/documentation/image-12.png)
+
+
+The link's background shifts to magenta/pink when hovering the mouse over.
 
 ------
 
@@ -161,9 +169,9 @@ The link's background shifts to magenta/pink when hovering the mouse over.
 ------
 ## Technologies applied
 Languages:
-HTML
-CSS
-Javascript
+* HTML
+* CSS
+* Javascript
 
 Use HTML and CSS to design an attractive and intuitive interface for the Rock-Paper-Scissors game.
 
@@ -178,20 +186,41 @@ React to user click by adding event listeners for the rock, paper, and scissors 
 * HTML W3 Validator	✅
 * CSS W3C Validator	✅
 * Try/catch			✅
-* jshint			
+* jshint	
+* Accessibility		✅	
+
+![pagespeed_mobile](image.png)
+![pagespeed_desktop](image-1.png)
+
 
 ## Fixes 
 
 * Include a loop Buttons using an event listener
-* Break things down into two function
-* Style edted for better user experience 
+* Break things down into smaller functions
+* Style edited for better user experience 
+* Add aria label and use as variable id:s
+* Create new divs for the "player" and " cpu" titles
+* Keep feature image in readme, but include features in text as well
+* Add try/catch to trouble shooting functions
+ 
+### Mention 
+I started in one repository and continued in a new repository to write cleaner and neater commits to the code.
+Link to the first repository https://github.com/Josseyo/PP2.git
 
+ 
 ## Tools
 FontAwesome, https://fontawesome.com/
 
 Am I responsive?, https://ui.dev/amiresponsive
 
 Grammarly, https://app.grammarly.com/
+
+Speed test, https://pagespeed.web.dev/
+Javascript test, https://jshint.com/
+
+https://validator.w3.org
+https://jigsaw.w3.org/css-validator
+
 
 ## Tutorials & credits
 Build Rock-paper-scissors basic structure https://youtu.be/ec8vSKJuZTk?si=0kYT0P_LqSiH0Yy9
@@ -205,8 +234,6 @@ https://youtu.be/3uKdQx-SZ5A?si=144oOFE4EclM_bO3
 
 Add aria https://youtu.be/P_H4_miTKsI?si=FqNEw6qp7DAeGpIN
 
-Add Try/Catch 
-
 Inspiration for readme https://hackr.io/blog/how-to-build-rock-paper-scissors-in-javascript)
 
 Buttons using an event listener https://sebhastian.com/rock-paper-scissors-javascript/ 
@@ -214,5 +241,5 @@ https://fjolt.com/articlejavascript-multiple-elements-addeventlistener
 
 Bro Code, javascript full cours for free (2024) https://youtu.be/lfmg-EJ8gm4?si=8UWH-9nR20S0VXzS
 
-
+Add Try/Catch https://www.w3schools.com/jsref/jsref_try_catch.asp
 
