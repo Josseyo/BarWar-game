@@ -4,10 +4,11 @@ const holder = ["rock", "paper", "scissors", "lizard", "spock"];
 const playerDisplay = document.getElementById("playerDisplay");
 const computerDisplay = document.getElementById("computerDisplay");
 const resultDisplay = document.getElementById("resultDisplay");
-let playerScore = 0;
-let computerScore = 0;
 const playerScoreDisplay = document.getElementById("playerScoreDisplay");
 const computerScoreDisplay = document.getElementById("computerScoreDisplay");
+const overallWinnerDisplay = document.getElementById("overallWinnerDisplay");
+let playerScore = 0;
+let computerScore = 0;
 let roundsPlayed = 0;
 
 //Function click button 
@@ -100,8 +101,7 @@ function display(player, computer, decision) {
         console.log(err.message);
     }
 }
-//The Bar Winner-Best out of five rounds
-
+//Function determine the overallWinner - Best out of five rounds
 function overallWinner() {
     try {
         if (playerScore > computerScore) {
@@ -115,6 +115,25 @@ function overallWinner() {
         console.log(err.message);
     }
 }
+//Function to display overallWinner
+function updateOverallWinnerDisplay() {
+    try {
+        if (playerScore > computerScore) {
+            overallWinnerDisplay.textContent = "You win the game!";
+            overallWinnerDisplay.classList.add("magentawinText", "aqualoseText");
+        }
+    } catch (err) {
+        console.log(err.message);
+    }
+}
 
-
+function overallWinner() {
+    try {
+        if (roundsPlayed >= 5) {
+            updateOverallWinnerDisplay();
+        }
+    } catch (err) {
+        console.log(err.message);
+    }
+}
 clickButtons();
