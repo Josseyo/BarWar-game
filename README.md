@@ -189,8 +189,8 @@ React to user click by adding event listeners for the rock, paper, and scissors 
 * jshint	
 * Accessibility		✅	
 
-![pagespeed_mobile](image.png)
-![pagespeed_desktop](image-1.png)
+![pagespeed_mobile](assets/documentation/mobile_speedtest.png)
+![pagespeed_desktop](assets/documentation/computer_speedtest.png))
 
 
 ## Fixes 
