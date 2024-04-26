@@ -110,10 +110,10 @@ function updateOverallWinnerDisplay() {
     try {
         if (playerScore > computerScore) {
             overallWinnerDisplay.textContent = "You win the game!";
-            overallWinnerDisplay.classList.add("magentawinText", "aqualoseText");
+            overallWinnerDisplay.classList.add("magentawinText");
         } else if (playerScore < computerScore) {
             overallWinnerDisplay.textContent = "House wins the game!";
-            overallWinnerDisplay.classList.add("magentawinText", "aqualoseText");
+            overallWinnerDisplay.classList.add("aqualoseText");
         }
     } catch (err) {
         console.log(err.message);
