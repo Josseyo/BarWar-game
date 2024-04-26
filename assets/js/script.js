@@ -33,7 +33,6 @@ function playGame(playerChoice) {
             const computerChoice = holder[Math.floor(Math.random() * 5)];
             let result = determineWinner(playerChoice, computerChoice);
             display(playerChoice, computerChoice, result);
-            roundsPlayed++;
         } else {
             overallWinner();
         }
@@ -69,6 +68,8 @@ function determineWinner(playerChoice, computerChoice) {
                     result = "Invalid choice!";
             }
         }
+        roundsPlayed++;
+
         return result;
     } catch (err) {
         console.log(err.message);
@@ -102,24 +103,16 @@ function display(player, computer, decision) {
     }
 }
 //Function determine the overallWinner - Best out of five rounds
-function overallWinner() {
-    try {
-        if (playerScore > computerScore) {
-            console.log("You win the game!");
-        } else if (playerScore < computerScore) {
-            console.log("House wins the game!");
-        } else {
-            console.log("It's a tie!");
-        }
-    } catch (err) {
-        console.log(err.message);
-    }
-}
+
+
 //Function to display overallWinner
 function updateOverallWinnerDisplay() {
     try {
         if (playerScore > computerScore) {
             overallWinnerDisplay.textContent = "You win the game!";
+            overallWinnerDisplay.classList.add("magentawinText", "aqualoseText");
+        } else if (playerScore < computerScore) {
+            overallWinnerDisplay.textContent = "House wins the game!";
             overallWinnerDisplay.classList.add("magentawinText", "aqualoseText");
         }
     } catch (err) {
@@ -136,4 +129,6 @@ function overallWinner() {
         console.log(err.message);
     }
 }
+
+
 clickButtons();
