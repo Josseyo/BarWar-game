@@ -3,11 +3,13 @@ Rock – Paper – Scissors – Lizard – Spock
 
 ![Overview of the game on different screen sizes](assets/documentation/image-1.png)
 
+Select from  rock paper scissors lizard spock and play against the House (computer). Best of five wins the game. 
+
 The Bar Wars game is based on the classic game of Rock, paper and scissors with an addition of Lizard and Spock.
 
 The game can be used for paus entartainment or for planning and decision making.
 
-Through global symbols and colors for pass and failure, this game can be used by anyone who has time to play - or need to make quick and fair decisions.
+Through global symbols and colors for pass and failure, this game can be used by anyone who has time to play - or need to make quick and fair settlement.
 
 What movies will you watch? Who will get the next round?  
 
@@ -28,9 +30,10 @@ This project is developed as a gift for the Bar Wars community. A group of peopl
 	* Managing player choices
 	* Generating computer selections
 	* Determining round winner
-	* Update the game interface dynamically based on player interactions clicking any of the various buttons
+	* Update the game interface dynamically based on player interactions clicking any of the buttons
 	* Display result
 	* Total scores
+	* Display the winner (best of five)
 
 ### User goal
 New visitors shall quickly recognize the traditional game of Paper, Rock and Scissors
@@ -43,7 +46,7 @@ New visitors shall quickly recognize the traditional game of Paper, Rock and Sci
 ## Design
 
 ### The colors
-The colors are inspired from Starwars and lasers. Dark blue background with text and elements in yellow, pink and aqua  makes a good contrast. Red and green are used as signal colors for win and lose.
+The colors are inspired from space and lasers. Dark blue background with text and elements in yellow, pink and aqua makes a good contrast. Red and green are used as signal colors for win and lose.
 
 * Dark blue #050530ff
 * Red #ff000cff
@@ -58,7 +61,7 @@ The colors are inspired from Starwars and lasers. Dark blue background with text
 ------
 
 ### Typography
-The courier font is inspired from typewriter and text code to match the beginning of digital age era
+The typewriter-like appearance of Courier adds a retro and nostalgic touch, complementing the classic and timeless nature of the Paper, Scissors, Rock game. Its monospaced design enhance the overall visual appeal and readability of the game interface.
 
 The icons of common illustrations by Font awesome are used for the variable buttons
 
