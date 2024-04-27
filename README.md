@@ -188,12 +188,22 @@ React to user click by adding event listeners for the rock, paper, and scissors 
 * HTML W3 Validator	✅
 * CSS W3C Validator	✅
 * Try/catch			✅
-* jshint	
+* JSHint			✅	
 * Accessibility		✅	
 
-![pagespeed_mobile](assets/documentation/mobile_speedtest.png)
-![pagespeed_desktop](assets/documentation/computer_speedtest.png))
+![code_valid](assets/documentation/code_valid.png)
 
+**Tested in following browsers:**
+Chrome - Version 123.0.6312.59 (Officiell version) (x86_64)
+Safari - Version 15.6.1 (17613.3.9.1.16)
+Firefox 
+
+**Responsiveness** tested for  following screen sizes
+Desktop - 1600 x 992 px
+Laptop - 1280 x 802 px 
+Tablet - 768 x 1024 px 
+Mobile - 414 x 896 px
+Mobile - 320 x 480 px 
 
 ## Fixes 
 
@@ -203,53 +213,56 @@ React to user click by adding event listeners for the rock, paper, and scissors 
 * Add aria label and use as variable id:s
 * Create new divs for the "player" and " cpu" titles
 * Keep feature image in readme, but include features in text as well
+* Delete <br> in ul to fix error in html validation; <br> not allowed as child of element)
 * Add try/catch to trouble shooting functions
+* Add 'use strict' to beginning of js file to fix the warning in JSHint;"Missing "use strict" statement" 
+* Add /*eslint-env es6*/ to beginning of js file to specify ECMAScript version Noted in JSHint
+ 
+ ## Deployment
  
 ### Mention 
 I started in one repository and continued in a new repository to write cleaner and neater commits to the code.
 Link to the first repository https://github.com/Josseyo/PP2.git
-
  
 ## Tools
-Gitpod
-Github
-Google
-Am I responsive? https://ui.dev/amiresponsive
-Grammarly https://app.grammarly.com/
-Speed test, https://pagespeed.web.dev/
-Javascript test, https://jshint.com/
-Html validator, https://validator.w3.org
-CSS validator, https://jigsaw.w3.org/css-validator
+* Gitpod
+* Github
+* Google
+* Am I responsive? https://ui.dev/amiresponsive
+* Grammarly https://app.grammarly.com/
+* Speed test, https://pagespeed.web.dev/
+* Javascript test, https://jshint.com/
+* Html validator, https://validator.w3.org
+* CSS validator, https://jigsaw.w3.org/css-validator
 
 ## Resources
-FontAwesome, https://fontawesome.com/
-Google fonts
-
+* FontAwesome, https://fontawesome.com/
+* Google fonts
 
 ## Tutorials & Inspirations
 Credits to all the content providers for all the inspirations and learnings from following sources
 
-Build Rock-paper-scissors basic structure https://youtu.be/ec8vSKJuZTk?si=0kYT0P_LqSiH0Yy9
+* Build Rock-paper-scissors basic structure https://youtu.be/ec8vSKJuZTk?si=0kYT0P_LqSiH0Yy9
 https://hackr.io/blog/how-to-build-rock-paper-scissors-in-javascript
 
-How to build rock, paper, scissors and readme file
+* How to build rock, paper, scissors and readme file
 https://hackr.io/blog/how-to-build-rock-paper-scissors-in-javascript
 
-Add basic CSS
+* Add basic CSS
 https://youtu.be/3uKdQx-SZ5A?si=144oOFE4EclM_bO3
 
-Add aria https://youtu.be/P_H4_miTKsI?si=FqNEw6qp7DAeGpIN
+* Add aria https://youtu.be/P_H4_miTKsI?si=FqNEw6qp7DAeGpIN
 
-Inspiration for readme https://hackr.io/blog/how-to-build-rock-paper-scissors-in-javascript)
+* Inspiration for readme https://hackr.io/blog/how-to-build-rock-paper-scissors-in-javascript)
 
-Buttons using an event listener https://sebhastian.com/rock-paper-scissors-javascript/ 
+* Buttons using an event listener https://sebhastian.com/rock-paper-scissors-javascript/ 
 https://fjolt.com/articlejavascript-multiple-elements-addeventlistener
 
-Bro Code, javascript full cours for free (2024) https://youtu.be/lfmg-EJ8gm4?si=8UWH-9nR20S0VXzS
+* Bro Code, javascript full cours for free (2024) https://youtu.be/lfmg-EJ8gm4?si=8UWH-9nR20S0VXzS
 
-Add Try/Catch https://www.w3schools.com/jsref/jsref_try_catch.asp
+* Add Try/Catch https://www.w3schools.com/jsref/jsref_try_catch.asp
 
-The game is based on the five elements theory and the episode of the comedy series “The big bang theory” in which Sheldon expands the ”Rock-paper-scissors"game to include “lizard” and “Spock” to increase the randomness of the outcome.
+* The game is based on the five elements theory and the episode of the comedy series “The big bang theory” in which Sheldon expands the ”Rock-paper-scissors"game to include “lizard” and “Spock” to increase the randomness of the outcome.
 
 <a href="https://www.youtube.com/watch?v=iSHPVCBsnLw"><img src="https://img.youtube.com/vi/iSHPVCBsnLw/0.jpg" width="300"></a>
 
