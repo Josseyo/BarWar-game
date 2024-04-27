@@ -1,3 +1,5 @@
+'use strict';
+
 /*eslint-env es6*/
 
 const holder = ["rock", "paper", "scissors", "lizard", "spock"];
