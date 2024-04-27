@@ -9,6 +9,8 @@ const resultDisplay = document.getElementById("resultDisplay");
 const playerScoreDisplay = document.getElementById("playerScoreDisplay");
 const computerScoreDisplay = document.getElementById("computerScoreDisplay");
 const overallWinnerDisplay = document.getElementById("overallWinnerDisplay");
+const playAgainBtn = document.getElementById("playAgain");
+
 let playerScore = 0;
 let computerScore = 0;
 let roundsPlayed = 0;
@@ -104,10 +106,9 @@ function display(player, computer, decision) {
         console.log(err.message);
     }
 }
-//Function determine the overallWinner - Best out of five rounds
 
 
-//Function to display overallWinner
+//Function to display overallWinner- Best out of five rounds
 function updateOverallWinnerDisplay() {
     try {
         if (playerScore > computerScore) {
@@ -131,6 +132,12 @@ function overallWinner() {
         console.log(err.message);
     }
 }
+
+//Function playagain to reload and start new game
+playAgainBtn.addEventListener('click', function () {
+    location.reload();
+
+});
 
 
 clickButtons();
