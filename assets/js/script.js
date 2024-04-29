@@ -107,7 +107,6 @@ function display(player, computer, decision) {
     }
 }
 
-
 //Function to display overallWinner- Best out of five rounds
 function updateOverallWinnerDisplay() {
     try {
@@ -138,6 +137,5 @@ playAgainBtn.addEventListener('click', function () {
     location.reload();
 
 });
-
 
 clickButtons();

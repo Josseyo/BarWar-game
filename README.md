@@ -174,6 +174,17 @@ Languages:
 * Javascript
 
 ## Testing
+**Code work as intended**
+It implements the logic for playing the best out of 5 rounds of the rock-paper-scissors-lizard-spock game.
+
+The key parts of the code:
+1. The `clickButtons` function sets up event listeners on the buttons, allowing the player to make their choices.
+2. The `playGame` function handles the gameplay logic. It checks if the number of rounds less than 5. If so, it calls the `determineWinner` function, displays the result, and increments the rounds played. If 5 rounds have been played, it calls the `overallWinner` function.
+3. The `determineWinner` function determines the winner of a single round based on the player's and computer's choices.
+4. The display updates the scores and its color on the page based on the result of each round.
+5. The `overallWinner` function is called after 5 rounds have been played. It compares the final scores of the player and the computer to determine the overall winner of the best-of-five series.
+
+**Code validated without errors:**
 * HTML W3 Validator	✅
 * CSS W3C Validator	✅
 * Try/catch			✅
@@ -182,18 +193,39 @@ Languages:
 
 ![code_valid](assets/documentation/code_valid.png)
 
+## Manual testing
+Features work as intended**
+
+ |                                                                                                 |                                       |                                                                                                                                                                    |            |            |             |
+| ------------------------------------------------------------------------------------------------ | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | ---------- | ----------- |
+| **Feature**                                                                                      | **Test case**                         | **Outcome**                                                                                                                                                        | **Chrome** | **Safari** | **Firefox** |
+| Shortcut-link to instructions of the game         | Click on the shortcut link            | User is brought to the instruction section at the bottom of the page. Button shifts color when hovering over                                                       | ✅          | ✅          | ✅           |
+| Buttons with the variable choices to play                                                        | Hover over the button with the  mouse | When hovering over the buttons, they  shift color and a text shows up explaining the feature of the button                                                         | ✅          | ✅          | ✅           |
+| Update and display Player’s and computer’s selection                                          | Click any of the buttons              | Player’s selection is displayed in magenta (pink).The computer’s selection is displayed in aqua blue.Result of the round in magenta or aqua, depending of who wins | ✅          | ✅          | ✅           |
+| Result display                                                                                    | Update result                          |The display updates the scores and its color on the page based on the result of each round.| ✅          | ✅          | ✅           |
+| Score display                                                                                    | Update score                          | Depending on who scores the score of the player is updated and displayed in pink. Computers score is updated and displayed with aqua blue number                   | ✅          | ✅          | ✅           |
+| Best of five                                                                                     | Display the best of five winner       | The winner  of  best of five is announced with text in magenta if the player wins, else in aqua blue if the House is  the winner.                                  | ✅          | ✅          | ✅           |
+| Play again                                                                                       | Click the button                      | Page reloads and game is reset so that I can play again                                                                                                            | ✅          | ✅          | ✅           |
+| Link at  end  of instructions as shortcut to the selection of buttons to start playing the game. | Click on the shortcut link            | Background shifts to magenta/pink when I hover the mouse over.When I click on the link I am taken to the section with variable choices to start the game.          | ✅          | ✅          | ✅           |
+
+
+------
 **Tested in following browsers:**
+
 Chrome - Version 123.0.6312.59 (Officiell version) (x86_64)
 Safari - Version 15.6.1 (17613.3.9.1.16)
-Firefox 
+Firefox - Version 123.0
 
-**Responsiveness** tested for following screen sizes
+------ 
+**Responsiveness tested for following screen sizes:**
+
 Desktop - 1600 x 992 px
 Laptop - 1280 x 802 px 
 Tablet - 768 x 1024 px 
 Mobile - 414 x 896 px
 Mobile - 320 x 480 px 
 
+------
 ## Fixes 
 
 * Include a loop Buttons using an event listener
@@ -282,5 +314,6 @@ https://fjolt.com/articlejavascript-multiple-elements-addeventlistener
 Special thanks to Veronika, Birger, Mia & Sanna for the idea of making this game.
 
 ------
-Enjoy & Thanks for playing!
+**Thanks for playing!**
+
 ------
