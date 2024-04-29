@@ -193,40 +193,24 @@ The key parts of the code:
 
 ![code_valid](assets/documentation/code_valid.png)
 
-## Manual testing
-Features work as intended**
-
- |                                                                                                 |                                       |                                                                                                                                                                    |            |            |             |
-| ------------------------------------------------------------------------------------------------ | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | ---------- | ----------- |
-| **Feature**                                                                                      | **Test case**                         | **Outcome**                                                                                                                                                        | **Chrome** | **Safari** | **Firefox** |
-| Shortcut-link to instructions of the game         | Click on the shortcut link            | User is brought to the instruction section at the bottom of the page. Button shifts color when hovering over                                                       | ✅          | ✅          | ✅           |
-| Buttons with the variable choices to play                                                        | Hover over the button with the  mouse | When hovering over the buttons, they  shift color and a text shows up explaining the feature of the button                                                         | ✅          | ✅          | ✅           |
-| Update and display Player’s and computer’s selection                                          | Click any of the buttons              | Player’s selection is displayed in magenta (pink).The computer’s selection is displayed in aqua blue.Result of the round in magenta or aqua, depending of who wins | ✅          | ✅          | ✅           |
-| Result display                                                                                    | Update result                          |The display updates the scores and its color on the page based on the result of each round.| ✅          | ✅          | ✅           |
-| Score display                                                                                    | Update score                          | Depending on who scores the score of the player is updated and displayed in pink. Computers score is updated and displayed with aqua blue number                   | ✅          | ✅          | ✅           |
-| Best of five                                                                                     | Display the best of five winner       | The winner  of  best of five is announced with text in magenta if the player wins, else in aqua blue if the House is  the winner.                                  | ✅          | ✅          | ✅           |
-| Play again                                                                                       | Click the button                      | Page reloads and game is reset so that I can play again                                                                                                            | ✅          | ✅          | ✅           |
-| Link at  end  of instructions as shortcut to the selection of buttons to start playing the game. | Click on the shortcut link            | Background shifts to magenta/pink when I hover the mouse over.When I click on the link I am taken to the section with variable choices to start the game.          | ✅          | ✅          | ✅           |
-
-
 ------
 **Tested in following browsers:**
 
-Chrome - Version 123.0.6312.59 (Officiell version) (x86_64)
-Safari - Version 15.6.1 (17613.3.9.1.16)
-Firefox - Version 123.0
+* Chrome - Version 123.0.6312.59 (Officiell version) (x86_64)
+* Safari - Version 15.6.1 (17613.3.9.1.16)
+* Firefox - Version 123.0
 
 ------ 
 **Responsiveness tested for following screen sizes:**
 
-Desktop - 1600 x 992 px
-Laptop - 1280 x 802 px 
-Tablet - 768 x 1024 px 
-Mobile - 414 x 896 px
-Mobile - 320 x 480 px 
+* Desktop - 1600 x 992 px
+* Laptop - 1280 x 802 px 
+* Tablet - 768 x 1024 px 
+* Mobile - 414 x 896 px
+* Mobile - 320 x 480 px 
 
 ------
-## Fixes 
+## Fixes
 
 * Include a loop Buttons using an event listener
 * Break things down into smaller functions
@@ -242,7 +226,8 @@ Mobile - 320 x 480 px
 * Screenshots for validation
 * Play again button that reloads the page - Create a button and then add a click event
 * Bigger font size
-* Fix colors to follow the design with magenta for player feedback and aqua for computer feedback to easily separate which data belongs to who.
+* Fix colors to follow the design with magenta for player feedback and aqua for computer feedback to easily separate which data belongs to who
+* Delete manual testing since the table didn't look good in readme
 
  ## Deployment
 
