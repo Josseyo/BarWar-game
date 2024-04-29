@@ -3,7 +3,8 @@ Rock – Paper – Scissors – Lizard – Spock
 
 ![Overview of the game on different screen sizes](assets/documentation/image-1.png)
 
-Select from **rock, paper, scissors, lizard, spock**, and play against the House (computer). Best of five wins the game. 
+* Select from **rock, paper, scissors, lizard, spock**, and play against the House (computer)
+* Best of five wins the game
 
 The Bar Wars game is based on the classic game of Rock, paper and scissors with an addition of Lizard and Spock.
 
@@ -12,8 +13,6 @@ The game can be used for paus entartainment or for planning and decision making.
 In case of any clash of opinions the situation will quickly be settled with this game. 
 
 Make it easy and let the game begin!
-
-This project is developed as a gift for the Bar Wars community. A group of people who get together to watch Star Wars movies the night before Christmas eve as a yearly tradition.
 
 
 ## Objectives
@@ -38,7 +37,6 @@ New visitors shall quickly recognize the traditional game of Paper, Rock and Sci
 * The rules of the game and logic between the five elements/variables should be easy to reach
 * The user/player shall have a clear overview and understanding of each button/choice/variable to be able to make an active choice rather than a random pick.  
 
-
 ## Design
 
 ### The colors
@@ -59,15 +57,13 @@ The colors are inspired from space and lasers. Dark blue background with text an
 ### Typography
 The typewriter-like appearance of Courier adds a retro and nostalgic touch, complementing the classic and timeless nature of the Paper, Scissors, Rock game. Its monospaced design enhance the overall visual appeal and readability of the game interface.
 
-The icons of common illustrations by Font awesome are used for the variable buttons
-
+The icons of common illustrations by Font awesome are used for the different buttons.
 
 ### Wireframes 
 Wireframes for desktop and mobile screen size
 
 ![wireframes](assets/documentation/image-2.png)
 ------
-
 ### Accessibility
 * Structure of semantic html
 * Meta tags and description
@@ -81,13 +77,11 @@ Wireframes for desktop and mobile screen size
 ## Features
 ![features](assets/documentation/image.png)
 ------
-
 ### Shortcut link
 First in place is a link to the instructions of the game to make it easy and quick for the visitor to decide if the game is for them or not.
 
 ![linkrules](assets/documentation/image-4.png)
 ------
-
 ### Heading
 * The name of the game refers to a community tradition called The Bar wars. 
 
@@ -95,7 +89,6 @@ First in place is a link to the instructions of the game to make it easy and qui
 to the heading
 ![heading](assets/documentation/image-5.png)
 ------
-
 ### Buttons with variable choices
 * The variable choices in black shown as icons in round yellow buttons placed on a dark blue background.
 
@@ -105,9 +98,7 @@ to the heading
 
 ![buttons](assets/documentation/image-6.png)
 ------
-
 ### Mouse hovers 
-
 When the player hovers over the buttons to make their selection;
 * Background color shifts to magenta
 * Explanatory text is visible to remind the player of the button’s strengths and weaknesses. 
@@ -117,7 +108,6 @@ to avoid mistakes of clicking the wrong answer.
 
 ![buttonhover](assets/documentation/image-7.png)
 ------
-
 ### The selections
 * Player’s (You) selection is displayed in magenta (pink)
 * Computer's (House) selection is displayed in aqua blue
@@ -154,7 +144,6 @@ The colors of magenta and aqua makes it clear who wins even without reading the 
 
 ![bestoffive](assets/documentation/best_of_five.png)
 ------
-
 ### Play again
 To play again after a round of 'Best of five':
 * Click the button to reload the page. This will reset the game so you can play again
@@ -198,7 +187,7 @@ Chrome - Version 123.0.6312.59 (Officiell version) (x86_64)
 Safari - Version 15.6.1 (17613.3.9.1.16)
 Firefox 
 
-**Responsiveness** tested for  following screen sizes
+**Responsiveness** tested for following screen sizes
 Desktop - 1600 x 992 px
 Laptop - 1280 x 802 px 
 Tablet - 768 x 1024 px 
@@ -263,7 +252,7 @@ Link to the first repository https://github.com/Josseyo/PP2.git
 * Google fonts
 
 ## Tutorials & Inspirations
-Credits to all the content providers for all the inspirations and learnings from following sources
+Credits to all the providers for all the inspirations and learnings from following sources
 
 * Build Rock-paper-scissors basic structure https://youtu.be/ec8vSKJuZTk?si=0kYT0P_LqSiH0Yy9
 https://hackr.io/blog/how-to-build-rock-paper-scissors-in-javascript
@@ -289,7 +278,9 @@ https://fjolt.com/articlejavascript-multiple-elements-addeventlistener
 
 <a href="https://www.youtube.com/watch?v=iSHPVCBsnLw"><img src="https://img.youtube.com/vi/iSHPVCBsnLw/0.jpg" width="300"></a>
 
-* Special thanks to the Bar Wars community and to Veronika, Birger, Mia & Sanna for the idea of making this game.
+* This project is developed as a gift for the Bar Wars community. A group of people who get together to watch Star Wars movies the night before Christmas eve as a yearly tradition. 
+Special thanks to Veronika, Birger, Mia & Sanna for the idea of making this game.
+
 ------
 Enjoy & Thanks for playing!
 ------
