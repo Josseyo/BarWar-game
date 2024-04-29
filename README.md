@@ -3,8 +3,6 @@ Rock – Paper – Scissors – Lizard – Spock
 
 ![Overview of the game on different screen sizes](assets/documentation/image-1.png)
 
-* Select from **rock, paper, scissors, lizard, spock**, and play against the House (computer)
-* Best of five wins the game
 
 The Bar Wars game is based on the classic game of Rock, paper and scissors with an addition of Lizard and Spock.
 
@@ -12,67 +10,12 @@ The game can be used for paus entartainment or for planning and decision making.
 
 In case of any clash of opinions the situation will quickly be settled with this game. 
 
+* Select from **rock, paper, scissors, lizard, spock**, and play against the House (computer)
+* Best of five wins the game
+
 Make it easy and let the game begin!
 
 
-## Objectives
-
-### Project objectives
-
-* Design a clean retro-stylish and engaging user interface for a rock-paper-scissors game 
-* Using JavaScript to implement functions such as:
-
-	* Managing player choices
-	* Generating computer selections
-	* Determining round winner
-	* Update the game interface dynamically based on player interactions clicking any of the buttons
-	* Display result
-	* Total scores
-	* Display the winner (best of five wins)
-
-### User objectives
-New visitors shall quickly recognize the traditional game of Paper, Rock and Scissors
-
-* The extra variables creates curiosity and willingness to try it out  
-* The rules of the game and logic between the five elements/variables should be easy to reach
-* The user/player shall have a clear overview and understanding of each button/choice/variable to be able to make an active choice rather than a random pick.  
-
-## Design
-
-### The colors
-The colors are inspired from space and lasers. Dark blue background with text and elements in yellow, pink and aqua makes a good contrast. Red and green are used as signal colors for win and lose.
-
-* Dark blue #050530ff
-* Red #ff000cff
-* Yellow #fffe47ff
-* Magenta #ff00f8ff
-* Aqua blue #00ffffff
-* Green #00a429ff
-* Red #ff000cff
-
-
-<img src="assets/documentation/image-3.png" width="600px" height="400">
-
-
-### Typography
-The typewriter-like appearance of Courier adds a retro and nostalgic touch, complementing the classic and timeless nature of the Paper, Scissors, Rock game. Its monospaced design enhance the overall visual appeal and readability of the game interface.
-
-The icons of common illustrations by Font awesome are used for the different buttons.
-
-### Wireframes 
-Wireframes for desktop and mobile screen size
-
-![wireframes](assets/documentation/image-2.png)
-------
-### Accessibility
-* Structure of semantic html
-* Meta tags and description
-* Icons with aria labels
-* Buttons with titles
-* Responsive design
-* Colors with good contrast
-* Standard font
-* Try/catch added for quicker troubleshooting
 
 ## Features
 ![features](assets/documentation/image.png)
@@ -85,8 +28,8 @@ First in place is a link to the instructions of the game to make it easy and qui
 ### Heading
 * The name of the game refers to a community tradition called The Bar wars. 
 
-* The heading is yellow with font in uppercase. Colors are inspired by stars,space and lasers. The darkblue background creates a clear contrast
-to the heading
+* The heading is yellow with font in uppercase. Colors are inspired by stars,space and lasers. The darkblue background creates a clear contrast to the heading
+
 ![heading](assets/documentation/image-5.png)
 ------
 ### Buttons with variable choices
@@ -163,6 +106,63 @@ To play again after a round of 'Best of five':
 ![linkgame](assets/documentation/image-12.png)
 
 ------
+## Objectives
+
+### Project objectives
+
+* Design a clean retro-stylish and engaging user interface for a rock-paper-scissors game 
+* Using JavaScript to implement functions such as:
+
+	* Managing player choices
+	* Generating computer selections
+	* Determining round winner
+	* Update the game interface dynamically based on player interactions clicking any of the buttons
+	* Display result
+	* Total scores
+	* Display the winner (best of five wins)
+
+### User objectives
+New visitors shall quickly recognize the traditional game of Paper, Rock and Scissors
+
+* The extra variables creates curiosity and willingness to try it out  
+* The rules of the game and logic between the five elements/variables should be easy to reach
+* The user/player shall have a clear overview and understanding of each button/choice/variable to be able to make an active choice rather than a random pick.  
+
+## Design
+
+### The colors
+The colors are inspired from space and lasers. Dark blue background with text and elements in yellow, pink and aqua makes a good contrast. Red and green are used as signal colors for win and lose.
+
+* Dark blue #050530ff
+* Red #ff000cff
+* Yellow #fffe47ff
+* Magenta #ff00f8ff
+* Aqua blue #00ffffff
+* Green #00a429ff
+* Red #ff000cff
+
+<img src="assets/documentation/image-3.png" width="600px" height="400">
+
+### Typography
+The typewriter-like appearance of Courier adds a retro and nostalgic touch, complementing the classic and timeless nature of the Paper, Scissors, Rock game. Its monospaced design enhance the overall visual appeal and readability of the game interface.
+
+The icons of common illustrations by Font awesome are used for the different buttons.
+
+### Wireframes 
+Wireframes for desktop and mobile screen size
+
+![wireframes](assets/documentation/image-2.png)
+------
+### Accessibility
+* Structure of semantic html
+* Meta tags and description
+* Icons with aria labels
+* Buttons with titles
+* Responsive design
+* Colors with good contrast
+* Standard font
+* Try/catch added for quicker troubleshooting
+
 ## Future Features
 * Save high score list
 * Add player to play against
