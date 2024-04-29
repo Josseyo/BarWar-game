@@ -243,7 +243,8 @@ I also made a local deployment. The way I managed that:
 * Click on the html-file to open the webpage in your browser
  
 ### Mention 
-I started in one repository and continued in a new repository to write cleaner and neater commits to the code.
+* Best of five and play again button was added as extras at. the end of project, therefore they are not shown in the wireframes.
+* I started in one repository to play around and continued in a new repository to make cleaner and neater commits to the code.
 Link to the first repository https://github.com/Josseyo/PP2.git
  
 ## Tools
@@ -258,7 +259,7 @@ Link to the first repository https://github.com/Josseyo/PP2.git
 * CSS validator, https://jigsaw.w3.org/css-validator
 
 ## Resources
-* FontAwesome, https://fontawesome.com/
+* FontAwesome
 * Google fonts
 
 ## Tutorials & Inspirations
@@ -288,4 +289,7 @@ https://fjolt.com/articlejavascript-multiple-elements-addeventlistener
 
 <a href="https://www.youtube.com/watch?v=iSHPVCBsnLw"><img src="https://img.youtube.com/vi/iSHPVCBsnLw/0.jpg" width="300"></a>
 
-
+* Special thanks to the Bar Wars community and to Veronika, Birger, Mia & Sanna for the idea of making this game.
+------
+Enjoy & Thanks for playing!
+------
