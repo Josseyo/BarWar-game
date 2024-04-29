@@ -3,26 +3,22 @@ Rock – Paper – Scissors – Lizard – Spock
 
 ![Overview of the game on different screen sizes](assets/documentation/image-1.png)
 
-Select from  rock paper scissors lizard spock and play against the House (computer). Best of five wins the game. 
+Select from **rock, paper, scissors, lizard, spock**, and play against the House (computer). Best of five wins the game. 
 
 The Bar Wars game is based on the classic game of Rock, paper and scissors with an addition of Lizard and Spock.
 
-The game can be used for paus entartainment or for planning and decision making.
+The game can be used for paus entartainment or for planning and decision making. What movies will you watch? Who will get the next round? 
 
-Through global symbols and colors for pass and failure, this game can be used by anyone who has time to play - or need to make quick and fair settlement.
+In case of any clash of opinions the situation will quickly be settled with this game. 
 
-What movies will you watch? Who will get the next round?  
-
-In case of any clash of opinions the situation will quickly be solved with this game. 
-
-Make it easy and let the game decide!
+Make it easy and let the game begin!
 
 This project is developed as a gift for the Bar Wars community. A group of people who get together to watch Star Wars movies the night before Christmas eve as a yearly tradition.
 
 
-## Goal
+## Objectives
 
-### Project goal
+### Project objectives
 
 * Design a clean retro-stylish and engaging user interface for a rock-paper-scissors game 
 * Using JavaScript to implement functions such as:
@@ -33,9 +29,9 @@ This project is developed as a gift for the Bar Wars community. A group of peopl
 	* Update the game interface dynamically based on player interactions clicking any of the buttons
 	* Display result
 	* Total scores
-	* Display the winner (best of five)
+	* Display the winner (best of five wins)
 
-### User goal
+### User objectives
 New visitors shall quickly recognize the traditional game of Paper, Rock and Scissors
 
 * The extra variables creates curiosity and willingness to try it out  
@@ -58,7 +54,7 @@ The colors are inspired from space and lasers. Dark blue background with text an
 
 
 <img src="assets/documentation/image-3.png" width="600px" height="400">
-------
+
 
 ### Typography
 The typewriter-like appearance of Courier adds a retro and nostalgic touch, complementing the classic and timeless nature of the Paper, Scissors, Rock game. Its monospaced design enhance the overall visual appeal and readability of the game interface.
@@ -143,48 +139,52 @@ As a player I don’t have to read to know the outcome; it's very clear just by 
 ------
 ### Score display
 * The score display has a yellow border. 
-
 * The score of the player is displayed in pink and computers score in aqua blue 
 
-This clearly separates  which score belongs to who.
+This clearly separates which score belongs to who.
 
 ![scores](assets/documentation/image-10.png)
 ------
+### Best of five
+* Best of five wins 
+* If player is the winner the text is displayed in magenta (pink)
+* If the house is the winner, the text is displayed in aqua blue
+
+The colors of magenta and aqua makes it clear who wins even without reading the text.
+
+![bestoffive](assets/documentation/best_of_five.png)
+------
+
+### Play again
+To play again after a round of 'Best of five':
+* Click the button to reload the page. This will reset the game so you can play again
+
+![play_agin](assets/documentation/play_again.png)
+
+------
 ### Instructions
-The instructions on how to play are placed at the bottom of the page.
+* The instructions on how to play are placed at the bottom of the page.
 
 ![rules](assets/documentation/image-11.png)
 
-At the end of the text there is a button with a link to take the player to the section with the variable choices to start the game.  
+* At the end of the text there is a button with a link to take the player to the section with the variable choices to start the game.  
+
+* The link's background shifts to magenta/pink when hovering the mouse over.
 
 ![linkgame](assets/documentation/image-12.png)
 
-
-The link's background shifts to magenta/pink when hovering the mouse over.
-
 ------
-
 ## Future Features
 * Save high score list
 * Add player to play against
 
-------
 ## Technologies applied
 Languages:
 * HTML
 * CSS
 * Javascript
 
-Use HTML and CSS to design an attractive and intuitive interface for the Rock-Paper-Scissors game.
-
-Write JavaScript to manage player choices, generate computer selections, and determine round outcomes.
-
-Dynamically update HTML content with JavaScript to display current selections, round results and total score.
-
-React to user click by adding event listeners for the rock, paper, and scissors buttons.
-
 ## Testing
-
 * HTML W3 Validator	✅
 * CSS W3C Validator	✅
 * Try/catch			✅
@@ -213,12 +213,34 @@ Mobile - 320 x 480 px
 * Add aria label and use as variable id:s
 * Create new divs for the "player" and " cpu" titles
 * Keep feature image in readme, but include features in text as well
-* Delete <br> in ul to fix error in html validation; <br> not allowed as child of element)
+* Delete < br > in ul to fix error in html validation
 * Add try/catch to trouble shooting functions
-* Add 'use strict' to beginning of js file to fix the warning in JSHint;"Missing "use strict" statement" 
-* Add /*eslint-env es6*/ to beginning of js file to specify ECMAScript version Noted in JSHint
- 
+* Add 'use strict' to beginning of js file to fix warning in JSHint;"Missing 'use strict' statement" 
+* Add /*eslint-env es6*/ to beginning of js file to specify ECMAScript version to fix warning in JSHint
+* Include local deployment in readme
+* Screenshots for validation
+* Play again button that reloads the page - Create a button and then add a click event
+* Bigger font size
+* Fix colors to follow the design with magenta for player feedback and aqua for computer feedback to easily separate which data belongs to who.
+
  ## Deployment
+
+The site was deployed to GitHub pages. The way I manage that:
+* Navigate to my GitHub repository page
+* From the setting tab (above the repository) click setting tab.
+* Select Pages in the left-hand menu
+* Section Build and deployment- source select Deploy from a branch
+* Select main in first area and root in second area
+* Save
+* You find the public site here: https://josseyo.github.io/BarWar-game/
+
+### Local deployment
+I also made a local deployment. The way I managed that:
+* Navigate to my GitHub repository page
+* On the main repository page, click the green Code button
+* In the menu that appears, click Download ZIP to download repository to my computer as a zipped file
+* Unzip the repository-files in a folder on your computer
+* Click on the html-file to open the webpage in your browser
  
 ### Mention 
 I started in one repository and continued in a new repository to write cleaner and neater commits to the code.
@@ -265,4 +287,5 @@ https://fjolt.com/articlejavascript-multiple-elements-addeventlistener
 * The game is based on the five elements theory and the episode of the comedy series “The big bang theory” in which Sheldon expands the ”Rock-paper-scissors"game to include “lizard” and “Spock” to increase the randomness of the outcome.
 
 <a href="https://www.youtube.com/watch?v=iSHPVCBsnLw"><img src="https://img.youtube.com/vi/iSHPVCBsnLw/0.jpg" width="300"></a>
+
 
