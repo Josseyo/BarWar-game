@@ -175,7 +175,6 @@ Languages:
 
 ## Testing
 **Code work as intended**
-It implements the logic for playing the best out of 5 rounds of the rock-paper-scissors-lizard-spock game.
 
 The key parts of the code:
 1. The `clickButtons` function sets up event listeners on the buttons, allowing the player to make their choices.
@@ -184,7 +183,22 @@ The key parts of the code:
 4. The display updates the scores and its color on the page based on the result of each round.
 5. The `overallWinner` function is called after 5 rounds have been played. It compares the final scores of the player and the computer to determine the overall winner of the best-of-five series.
 
+**Tested in following browsers:**
+
+* Chrome - Version 123.0.6312.59 (Officiell version) (x86_64)
+* Safari - Version 15.6.1 (17613.3.9.1.16)
+* Firefox - Version 123.0
+
+**Responsiveness tested for following screen sizes:**
+
+* Desktop - 1600 x 992 px
+* Laptop - 1280 x 802 px 
+* Tablet - 768 x 1024 px 
+* Mobile - 414 x 896 px
+* Mobile - 320 x 480 px 
+
 **Code validated without errors:**
+
 * HTML W3 Validator	✅
 * CSS W3C Validator	✅
 * Try/catch			✅
@@ -193,21 +207,6 @@ The key parts of the code:
 
 ![code_valid](assets/documentation/code_valid.png)
 
-------
-**Tested in following browsers:**
-
-* Chrome - Version 123.0.6312.59 (Officiell version) (x86_64)
-* Safari - Version 15.6.1 (17613.3.9.1.16)
-* Firefox - Version 123.0
-
------- 
-**Responsiveness tested for following screen sizes:**
-
-* Desktop - 1600 x 992 px
-* Laptop - 1280 x 802 px 
-* Tablet - 768 x 1024 px 
-* Mobile - 414 x 896 px
-* Mobile - 320 x 480 px 
 
 ------
 ## Fixes
