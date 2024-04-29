@@ -18,10 +18,31 @@ body {
     /*min-height: 100vh;*/
     color: yellow;
     background: rgb(9, 4, 50);
-
 }
 
-/*Header*/
+/*Main content - Game board*/
+main {
+    /*make main content take up any surplus space to push footer down*/
+    flex: 1 0 auto;
+}
+
+
+h1 {
+    font-size: 5em;
+    margin-top: 1em;
+    margin-bottom: 0.3em;
+    letter-spacing: 10px;
+}
+
+h2 {
+    font-size: 3rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+/*Href-shortcut-links*/
 a {
     text-decoration: none;
     font-size: 1rem;
@@ -47,28 +68,6 @@ a:hover {
     padding: 0.5em;
 }
 
-/*Main content - Game board*/
-main {
-    /*make main content take up any surplus space to push footer down*/
-    flex: 1 0 auto;
-}
-
-
-h1 {
-    font-size: 5em;
-    margin-top: 1em;
-    margin-bottom: 0.3em;
-    letter-spacing: 10px;
-}
-
-h2 {
-    font-size: 3rem;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-}
-
 #gameboard {
     box-sizing: border-box;
     width: 85%;
@@ -78,7 +77,6 @@ h2 {
 }
 
 #holder {
-
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -116,8 +114,18 @@ h2 {
     margin: auto;
     padding: 1rem;
     text-transform: uppercase;
-
 }
+
+#playerTitle {
+    color: magenta;
+    font-size: 1.6em;
+}
+
+#computerTitle {
+    color: aqua;
+    font-size: 1.6em;
+}
+
 
 #computerDisplay {
     font-size: 2.5em;
@@ -132,7 +140,6 @@ h2 {
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
-
 }
 
 #resultDisplay {
@@ -161,7 +168,6 @@ h2 {
 #overallWinnerDisplay {
     font-size: 2.5em;
     margin-bottom: auto;
-
     padding: 1rem;
     text-transform: uppercase;
     display: flex;
@@ -172,11 +178,12 @@ h2 {
 
 #playAgain {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1em;
+    font-weight: 700;
+    font-size: 1.2em;
     text-transform: uppercase;
-    border: 0.3em solid magenta;
-    color: rgb(9, 4, 50);
-    background: yellow;
+    border: 0.3em solid yellow;
+    color: yellow;
+    background: magenta;
     min-width: fit-content;
     margin: auto;
     padding: 1em;
@@ -187,10 +194,11 @@ h2 {
 }
 
 #playAgain:hover {
-    font-size: 1.2em;
-    border: 0.3em solid yellow;
-    color: yellow;
-    background: magenta;
+    font-size: 1.3em;
+    font-weight: 700;
+    border: 0.3em solid magenta;
+    background: yellow;
+    color: rgb(9, 4, 50);
 }
 
 .magentawinText {
@@ -213,11 +221,9 @@ h2 {
 
 .aquaText {
     color: aqua;
-
 }
 
 #rules {
-
     font-size: 1.6rem;
     color: rgb(9, 4, 50);
     max-width: 85%;
@@ -237,7 +243,6 @@ footer {
 /* Media queries */
 
 @media (max-width: 414px) {
-
     body {
         margin: 2em 0.5em 0.5em 0.5em;
     }
@@ -292,7 +297,6 @@ footer {
 
 #resultDisplay {
     margin-bottom: 0.5em;
-
 }
 
 h2 {
@@ -366,7 +370,6 @@ h2 {
 
 #resultDisplay {
     margin-bottom: 0.5em;
-
 }
 
 h2 {
